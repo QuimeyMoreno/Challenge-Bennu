@@ -1,0 +1,72 @@
+body {
+    margin: 40px auto;
+    font-family: Arial;
+    max-width: 640px;
+}
+
+.question {
+    margin-bottom: 60px;
+}
+
+hr {
+    margin: 40px;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+/********************************
+ * QUESTION 5.
+ *******************************/
+.q6-wrapper {
+    background: #EFEFEF;
+}
+
+.q6-wrapper .q6-block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: #333;
+}
+
+/* Add your code after this line */
+/********************************
+ * QUESTION 6.
+ *******************************/
+ .q6-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    background-color: #D3D3D3; 
+    padding: 10px; 
+}
+
+.q6-block {
+    width: 100px;
+    height: 100px; 
+    background: #333; 
+}
+
+.q6-block:nth-child(odd) {
+    background: #00FF00;
+}
+/* Add your code after this line */
+
+
+/********************************
+ * QUESTION 7.
+ *******************************/
+
+header{
+    background: #F00;
+    color: #fff;
+    text-align: center;
+}
+
+.file-name{
+    color: #00F;
+    font-weight: bold;
+}
+
+#my-name{
+    text-transform: uppercase;
+}
