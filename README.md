@@ -19,9 +19,14 @@ git clone https://github.com/QuimeyMoreno/Challenge-Bennu.git
 cd Challenge-Bennu
 npm install
 
-3. Configurar Variables de Entorno
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.zzm2z.mongodb.net/bennuChallenge?retryWrites=true&w=majority
-Remplazar <username> y <password>
+### 3. Configurar Variables de Entorno
+
+1. Copia el archivo `.env.example` y renómbralo como `.env`.
+2. Completa las credenciales necesarias en el archivo `.env`:
+   ```env
+   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.zzm2z.mongodb.net/bennuChallenge?retryWrites=true&w=majority
+
+   Reemplaza <username> y <password> con tus credenciales de MongoDB.
 
 ## Inicialización del Proyecto
 
